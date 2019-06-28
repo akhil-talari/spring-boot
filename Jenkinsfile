@@ -1,5 +1,5 @@
 node {
-    def DOCKERHUB_REPO = "niketpatel2525/trucker-api"
+    def DOCKERHUB_REPO = "akhiltalari/employees-api"
     def DOCKER_SERVICE_ID = "trucker-service"
     def DOCKER_IMAGE_VERSION = ""
 

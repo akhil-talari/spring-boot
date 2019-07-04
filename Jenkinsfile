@@ -36,7 +36,7 @@ node {
                      docker service create \
                        --replicas 1 \
                        --name ${DOCKER_SERVICE_ID} \
-                       --publish 8080:3306 \
+                       --publish 8081:3306 \
                        --secret spring.datasource.url \
                        --secret spring.datasource.username \
                        --secret spring.datasource.password \
